@@ -5,3 +5,5 @@
 1. add readme
 2. init project
 3. Creating a Bundle
+4. webpack.config.js
+
