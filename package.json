@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "description": "webpack guides",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uikoo9/webpack-guides.git"
@@ -19,5 +18,8 @@
   "devDependencies": {
     "webpack": "^5.59.0",
     "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
