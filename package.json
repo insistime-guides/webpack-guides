@@ -1,0 +1,24 @@
+{
+  "name": "webpack-guides",
+  "version": "1.0.0",
+  "description": "1. add readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uikoo9/webpack-guides.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uikoo9/webpack-guides/issues"
+  },
+  "homepage": "https://github.com/uikoo9/webpack-guides#readme",
+  "devDependencies": {
+    "webpack": "^5.59.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
