@@ -1,6 +1,6 @@
 {
   "name": "webpack-guides",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "webpack guides",
   "main": "index.js",
   "scripts": {
