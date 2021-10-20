@@ -7,4 +7,5 @@
 3. Creating a Bundle
 4. webpack.config.js
 5. npm build
+6. css loader
 
