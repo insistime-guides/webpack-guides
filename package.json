@@ -3,7 +3,9 @@
   "version": "0.0.3",
   "description": "webpack guides",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uikoo9/webpack-guides.git"
