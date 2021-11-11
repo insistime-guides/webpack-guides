@@ -3,6 +3,7 @@
 ## version
 ### 0.0.2.20211111
 1. img loader
+2. font loader
 
 ### 0.0.1.20211020
 1. add readme
