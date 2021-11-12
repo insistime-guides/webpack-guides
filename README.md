@@ -6,6 +6,7 @@
 2. html webpack plugin
 3. output clean
 4. dev mode
+5. source map
 
 ### 0.0.2.20211111
 1. img loader
