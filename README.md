@@ -1,6 +1,9 @@
 # webpack-guides
 
 ## version
+### 0.0.3.20211112
+1. output pre
+
 ### 0.0.2.20211111
 1. img loader
 2. font loader
