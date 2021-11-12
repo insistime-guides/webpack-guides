@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/uikoo9/webpack-guides#readme",
   "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.59.0",
     "webpack-cli": "^4.9.1"
   },
