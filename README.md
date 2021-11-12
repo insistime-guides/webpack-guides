@@ -4,6 +4,7 @@
 ### 0.0.3.20211112
 1. output pre
 2. html webpack plugin
+3. output clean
 
 ### 0.0.2.20211111
 1. img loader
