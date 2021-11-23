@@ -1,6 +1,9 @@
 # webpack-guides
 
 ## version
+### 0.0.4.20211123
+1. webpack-dev-server
+
 ### 0.0.3.20211112
 1. output pre
 2. html webpack plugin
