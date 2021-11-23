@@ -3,6 +3,7 @@
 ## version
 ### 0.0.4.20211123
 1. webpack-dev-server
+2. webpack-dev-middleware
 
 ### 0.0.3.20211112
 1. output pre
