@@ -1,6 +1,9 @@
 # webpack-guides
 
 ## version
+### 0.0.5.20211124
+1. code spliting
+
 ### 0.0.4.20211123
 1. webpack-dev-server
 2. webpack-dev-middleware
