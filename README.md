@@ -4,6 +4,7 @@
 ### 0.0.5.20211124
 1. code spliting
 2. dependOn
+3. split chunks plugin
 
 ### 0.0.4.20211123
 1. webpack-dev-server
