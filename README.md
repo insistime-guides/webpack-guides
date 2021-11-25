@@ -1,6 +1,9 @@
 # webpack-guides
 
 ## version
+### 0.0.6.20211125
+1. dynamic imports
+
 ### 0.0.5.20211124
 1. code spliting
 2. dependOn
