@@ -6,6 +6,7 @@
 2. Extracting Boilerplate
 3. deterministic
 4. lib init
+5. ext lodash
 
 ### 0.0.6.20211125
 1. dynamic imports
