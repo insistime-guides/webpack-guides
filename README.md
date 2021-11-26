@@ -1,6 +1,9 @@
 # webpack-guides
 
 ## version
+### 0.0.7.20211126
+1. contenthash
+
 ### 0.0.6.20211125
 1. dynamic imports
 2. webpack stats
