@@ -3,6 +3,7 @@
 ## version
 ### 0.0.7.20211126
 1. contenthash
+2. Extracting Boilerplate
 
 ### 0.0.6.20211125
 1. dynamic imports
