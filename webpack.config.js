@@ -18,8 +18,9 @@ module.exports = {
     clean: true,
   },
   optimization: {
+    moduleIds: 'deterministic',
     runtimeChunk: 'single',
-   splitChunks: {
+    splitChunks: {
      cacheGroups: {
        vendor: {
          test: /[\\/]node_modules[\\/]/,
