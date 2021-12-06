@@ -3,6 +3,7 @@
 ## version
 ### 0.0.8.20211206
 1. hmr
+2. dev-server.js
 
 ### 0.0.7.20211126
 1. contenthash
