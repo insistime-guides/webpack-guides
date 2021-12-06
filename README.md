@@ -1,6 +1,9 @@
 # webpack-guides
 
 ## version
+### 0.0.8.20211206
+1. hmr
+
 ### 0.0.7.20211126
 1. contenthash
 2. Extracting Boilerplate
