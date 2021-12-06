@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "watch": "webpack --config webpack.config.js --watch",
-    "stats": "webpack --profile --json > stats.json"
+    "start": "webpack serve --open"
   },
   "repository": {
     "type": "git",
@@ -22,7 +21,8 @@
   "devDependencies": {
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.59.0",
-    "webpack-cli": "^4.9.1"
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
   },
   "dependencies": {
     "lodash": "^4.17.21"
