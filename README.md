@@ -6,6 +6,7 @@
 2. tree shaking add util
 3. production mode
 4. lazy loading
+5. shimming
 
 ### 0.0.8.20211206
 1. hmr
