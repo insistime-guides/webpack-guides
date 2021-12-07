@@ -1,4 +1,6 @@
 const path = require('path');
+const webpack = require('webpack');
+
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -7,7 +9,10 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Lazy Loading',
+      title: 'Shimming',
+    }),
+    new webpack.ProvidePlugin({
+      _: 'lodash',
     }),
   ],
   output: {
