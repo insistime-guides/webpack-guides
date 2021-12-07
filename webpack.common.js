@@ -2,14 +2,12 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
   entry: {
-    app: './src/index.js'
+    app: './src/index.js',
   },
-  devtool: 'inline-source-map',
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Hot Module Replacement',
+      title: 'Production',
     }),
   ],
   output: {
@@ -17,8 +15,4 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
-  optimization: {
-    usedExports: true,
-  },
 };
-
