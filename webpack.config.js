@@ -7,18 +7,6 @@ module.exports = {
     app: './src/index.js'
   },
   devtool: 'inline-source-map',
-  devServer: {
-    static: './dist',
-    hot: true,
-  },
-  module: {
-    rules: [
-      {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
-      },
-    ],
-  },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Hot Module Replacement',
@@ -28,6 +16,9 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
+  },
+  optimization: {
+    usedExports: true,
   },
 };
 
