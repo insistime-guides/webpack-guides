@@ -3,6 +3,7 @@
 ## version
 ### 0.0.9.20211207
 1. hmr css
+2. tree shaking add util
 
 ### 0.0.8.20211206
 1. hmr
