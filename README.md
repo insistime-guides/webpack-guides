@@ -5,6 +5,7 @@
 1. html-webpack-plugin filename
 2. html-webpack-plugin template
 3. html-webpack-plugin inject
+4. support react by babel-loader
 
 ### 0.0.9.20211207
 1. hmr css
