@@ -1,31 +1,8 @@
 // html webpack plugin
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-// options
-module.exports = function(){
-  // options
-  var options = {
-    // title
-    title: 'html title',
-
-    // filename by string
-    // filename: 'admin.html',
-
-    // filename by function
-    filename: function(entryName){
-      return entryName + '.html'
-    },
-
-    // template
-    template: './webpack-plugins/html-webpack-plugin.html'
-  };
-
-  return new HtmlWebpackPlugin(options);
-};
-
 /**
- * 
- 
+ * https://github.com/jantimon/html-webpack-plugin#options
 Name	Type	Default	Description
 title	{String}	Webpack App	The title to use for the generated HTML document
 filename	{String|Function}	'index.html'	The file to write the HTML to. Defaults to index.html. You can specify a subdirectory here too (eg: assets/admin.html). The [name] placeholder will be replaced with the entry name. Can also be a function e.g. (entryName) => entryName + '.html'.
@@ -46,5 +23,24 @@ chunks	{?}	?	Allows you to add only some chunks (e.g only the unit-test chunk)
 chunksSortMode	{String|Function}	auto	Allows to control how chunks should be sorted before they are included to the HTML. Allowed values are 'none' | 'auto' | 'manual' | {Function}
 excludeChunks	{Array.<string>}	``	Allows you to skip some chunks (e.g don't add the unit-test chunk)
 xhtml	{Boolean}	false	If true render the link tags as self-closing (XHTML compliant)
-
 */
+module.exports = function(){
+  // options
+  var options = {
+    // title
+    title: 'html title',
+
+    // filename by string
+    // filename: 'admin.html',
+
+    // filename by function
+    filename: function(entryName){
+      return entryName + '.html'
+    },
+
+    // template
+    template: './webpack-plugins/html-webpack-plugin.html'
+  };
+
+  return new HtmlWebpackPlugin(options);
+};
