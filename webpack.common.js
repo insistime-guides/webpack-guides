@@ -1,26 +1,19 @@
-const path = require('path');
-const webpack = require('webpack');
+var path = require('path');
+var webpack = require('webpack');
 
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+// html webpack plugin
+var HtmlWebpackPlugin = require('./webpack-plugins/html-webpack-plugins.js');
 
+// 
 module.exports = {
   entry: {
     app: './src/index.js',
   },
   plugins: [
-    new HtmlWebpackPlugin({
-      title: 'Shimming',
-    }),
-    new webpack.ProvidePlugin({
-      _: 'lodash',
-    }),
+    HtmlWebpackPlugin(),
   ],
   module: {
     rules: [
-      {
-        test: require.resolve('./src/index.js'),
-        use: 'imports-loader?wrapper=window',
-      },
     ],
   },
   output: {
