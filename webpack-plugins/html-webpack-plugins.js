@@ -39,7 +39,10 @@ module.exports = function(){
     },
 
     // template
-    template: './webpack-plugins/html-webpack-plugin.html'
+    template: './webpack-plugins/html-webpack-plugin.html',
+
+    // inject
+    inject: 'body'
   };
 
   return new HtmlWebpackPlugin(options);
