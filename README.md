@@ -1,6 +1,9 @@
 # webpack-guides
 
 ## version
+### 1.0.0.20220314
+1. html-webpack-plugin filename
+
 ### 0.0.9.20211207
 1. hmr css
 2. tree shaking add util
