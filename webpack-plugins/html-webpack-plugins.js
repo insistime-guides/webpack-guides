@@ -17,7 +17,7 @@ module.exports = function(){
     },
 
     // template
-    // template: './webpack-plugins/html-webpack-plugin.html'
+    template: './webpack-plugins/html-webpack-plugin.html'
   };
 
   return new HtmlWebpackPlugin(options);

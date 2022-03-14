@@ -13,8 +13,7 @@ module.exports = {
     HtmlWebpackPlugin(),
   ],
   module: {
-    rules: [
-    ],
+    rules: [],
   },
   output: {
     filename: '[name].bundle.js',
