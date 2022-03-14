@@ -4,16 +4,21 @@ var webpack = require('webpack');
 // html webpack plugin
 var HtmlWebpackPlugin = require('./webpack-plugins/html-webpack-plugins.js');
 
+// react rule
+var reactRule = require('./webpack-rules/react-rule.js');
+
 // 
 module.exports = {
   entry: {
-    app: './src/index.js',
+    react: './src/react.js'
   },
   plugins: [
     HtmlWebpackPlugin(),
   ],
   module: {
-    rules: [],
+    rules: [
+      reactRule,
+    ],
   },
   output: {
     filename: '[name].bundle.js',
