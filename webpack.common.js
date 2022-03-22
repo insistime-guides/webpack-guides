@@ -18,6 +18,14 @@ module.exports = {
   module: {
     rules: [
       reactRule,
+      {
+        test: /\.scss$/i,
+        use: [
+          "style-loader",
+          "css-loader",
+          "sass-loader",
+        ],
+      },
     ],
   },
   output: {
