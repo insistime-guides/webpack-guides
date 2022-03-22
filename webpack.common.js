@@ -7,6 +7,9 @@ var HtmlWebpackPlugin = require('./webpack-plugins/html-webpack-plugins.js');
 // react rule
 var reactRule = require('./webpack-rules/react-rule.js');
 
+// sass rule
+var sassRule = require('./webpack-rules/sass-rule.js');
+
 // 
 module.exports = {
   entry: {
@@ -18,14 +21,7 @@ module.exports = {
   module: {
     rules: [
       reactRule,
-      {
-        test: /\.scss$/i,
-        use: [
-          "style-loader",
-          "css-loader",
-          "sass-loader",
-        ],
-      },
+      sassRule,
     ],
   },
   output: {
