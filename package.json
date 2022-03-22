@@ -1,8 +1,10 @@
 {
   "name": "webpack-guides",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "private": true,
   "description": "webpack guides",
-  "main": "index.js",
+  "keywords": [],
+  "author": "uikoo9",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
@@ -11,13 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/uikoo9/webpack-guides.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/uikoo9/webpack-guides/issues"
-  },
-  "homepage": "https://github.com/uikoo9/webpack-guides#readme",
   "devDependencies": {
     "@babel/core": "^7.17.5",
     "@babel/preset-react": "^7.16.7",
